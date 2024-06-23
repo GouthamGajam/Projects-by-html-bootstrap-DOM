@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    padding: 20px;
+    margin: 0;
+}
+#first-box, #second-box {
+    border-radius: 10px;
+    box-shadow: 0 2px 2px;
+    padding: 20px;
+    margin: 20px;
+    width: 100%;
+}
+#mid a {
+    display: block;
+    color: #6cb2f9;
+    text-decoration: none;
+}
+#mid a:hover {
+    color: black;
+}
+#span {
+    font-size: 20px;
+}
+.sp{
+    padding-bottom: 20px;
+}
+.spp{
+    padding-bottom: 10px;
+}

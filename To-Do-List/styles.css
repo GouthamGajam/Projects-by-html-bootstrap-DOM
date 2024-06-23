@@ -1,0 +1,48 @@
+.text-bg-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #17a2b8; 
+    color: black; 
+    height: 100px;
+}
+
+.container {
+    width: 90%;
+    max-width: 700px; 
+    margin: 20px auto;
+}
+
+.container2 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card {
+    width: 100%;
+    max-width: 300px;
+    background-color: #f8f9fa;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.close-btn {
+    position: absolute;
+    font-size: 20px;
+    cursor: pointer;
+    top: 10px;
+    right: 10px;
+    color: #6c757d;
+}
+
+.add-task {
+    color: #333;
+}
+
+.text-box {
+    background-color: #f8f9fa;
+}
