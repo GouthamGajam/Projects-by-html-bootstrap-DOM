@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #ff6347;
+    color: white;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+#add-recipe-btn {
+    background-color: white;
+    color: #ff6347;
+    border: none;
+    padding: 0.5em 1em;
+    cursor: pointer;
+}
+
+main {
+    padding: 1em;
+}
+
+#recipe-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+.recipe {
+    background-color: white;
+    padding: 1em;
+    border: 1px solid #ddd;
+    border-radius: 0.5em;
+    width: 300px;
+}
+
+.recipe img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 0.5em;
+}
+
+.hidden {
+    display: none;
+}
+
+#recipe-form {
+    background-color: white;
+    padding: 1em;
+    border: 1px solid #ddd;
+    border-radius: 0.5em;
+    margin-top: 1em;
+}
+
+#recipe-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+#recipe-form label {
+    margin-bottom: 0.5em;
+}
+
+#recipe-form input,
+#recipe-form textarea {
+    margin-bottom: 1em;
+    padding: 0.5em;
+    border: 1px solid #ddd;
+    border-radius: 0.5em;
+}
+
+#save-recipe-btn,
+#cancel-btn {
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    padding: 0.5em 1em;
+    cursor: pointer;
+    margin-bottom: 0.5em;
+}
+
+#cancel-btn {
+    background-color: #ccc;
+    color: black;
+}

@@ -24,7 +24,6 @@ songItems.forEach((element, i) => {
     element.getElementsByClassName("songName")[0].innerText = songs[i].songName;
 });
 
-// Handle play/pause click
 masterPlay.addEventListener('click', () => {
     if (audioElement.paused || audioElement.currentTime <= 0) {
         audioElement.play();
@@ -39,9 +38,7 @@ masterPlay.addEventListener('click', () => {
     }
 });
 
-// Listen to Events
 audioElement.addEventListener('timeupdate', () => {
-    // Update Seekbar
     let progress = parseInt((audioElement.currentTime / audioElement.duration) * 100);
     myProgressBar.value = progress;
 });
