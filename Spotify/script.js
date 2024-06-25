@@ -67,6 +67,8 @@ Array.from(document.getElementsByClassName('songItemPlay')).forEach((element) =>
             audioElement.src = songs[parseInt(e.target.id)].filePath;
             masterSongName.innerText = songs[parseInt(e.target.id)].songName;
         }
+
+        
         if (audioElement.paused || audioElement.currentTime <= 0) {
             makeAllPlays();
             e.target.classList.remove('fa-play-circle');

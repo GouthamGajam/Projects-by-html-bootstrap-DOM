@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+.nav1{
+    height: 60px;
+    background-color: #0f1111;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    height: 50px;
+    width: 160px;
+}
+.logo{
+    height: 50px;
+    width: 100%;
+    background-image: url(logo3.png);
+    background-size: 80% 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.border{
+    border: 1.5px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid white;
+}
+
+.ad1{
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+.ad2{
+    font-size: 1rem;
+    margin-left: 3px;
+}
+.loc-icon{
+    display: flex;
+    align-items: center;
+}
+
+.nav-sea{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: orange;
+    width: 50%;
+    height: 40px;
+    border-radius: 5px;
+    margin-left: 15px;
+}
+.search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+}
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.searchi{
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    color: #000000;
+}
+.ind{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    margin-left: 20px;
+}
+.in{
+    background-image: url(ind.png);
+    height: 16px;
+    width: 24px;
+    background-size: cover;
+    margin-right: 5px;
+}
+.down{
+    font-size: 10px;
+    margin-left: 2px;
+}
+
+.nav-sign{
+    width: 145px;
+    height: 50px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.up2{
+    font-size: 0.8rem;
+}
+.down2{
+    font-size: 1rem;
+}
+.nav-ret{
+    width: 80px;
+    height: 50px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.up3{
+    font-size: 0.8rem;
+}
+.down3{
+    font-size: 1rem;
+}
+.cartt{
+    font-size: 1.5rem;
+}
+.nav2{
+    background-color: #0f1111;
+    color: white;
+    height: 40px;
+    font-size: 0.8rem;
+}
